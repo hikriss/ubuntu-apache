@@ -12,6 +12,8 @@ To share local folder with friends.
 ```sh
 docker run -d -p <port_exposed>:80 -v <local folder>:/var/www hikriss/mysite
 ```
+Note: Docker for Windows uses absolute local path.
+
 ## Check process running
 ```sh
 docker ps
