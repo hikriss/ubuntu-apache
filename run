@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+echo `hostname` > /var/www/index.html
+/usr/sbin/apache2ctl -D FOREGROUND
